@@ -1,9 +1,23 @@
 #! /bin/bash
 
-# Compile all files
+cd TaggedEMC
+./Compile
+./Clean
+mv ALERT-TagEMC.pdf ..
 
-# Move pdfs to root
+cd ../TaggedDVCS
+./Compile
+./Clean
+mv ALERT-TagDVCS.pdf ..
 
-# Clean
+cd ../NuclearGPD
+./Compile
+./Clean
+mv ALERT-NuclGPDs.pdf ..
+
+cd ../ExtraTopics
+./Compile
+./Clean
+mv ALERT-4.pdf ..
 
 #Add creation of a tar?
