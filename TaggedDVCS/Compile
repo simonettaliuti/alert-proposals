@@ -1,0 +1,10 @@
+#! /bin/bash
+
+./Clean
+
+pdflatex ALERT-TagDVCS.tex
+bibtex   ALERT-TagDVCS
+pdflatex ALERT-TagDVCS.tex
+pdflatex ALERT-TagDVCS.tex
+
+#Add creation of a tar?

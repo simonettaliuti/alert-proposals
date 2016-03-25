@@ -1,0 +1,10 @@
+#! /bin/bash
+
+./Clean
+
+pdflatex ALERT-TagEMC.tex
+bibtex   ALERT-TagEMC
+pdflatex ALERT-TagEMC.tex
+pdflatex ALERT-TagEMC.tex
+
+#Add creation of a tar?

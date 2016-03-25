@@ -1,0 +1,10 @@
+#! /bin/bash
+
+./Clean
+
+pdflatex ALERT-4.tex
+bibtex   ALERT-4
+pdflatex ALERT-4.tex
+pdflatex ALERT-4.tex
+
+#Add creation of a tar?

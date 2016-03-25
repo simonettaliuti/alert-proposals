@@ -1,0 +1,10 @@
+#! /bin/bash
+
+./Clean
+
+pdflatex ALERT-NuclGPDs.tex
+bibtex   ALERT-NuclGPDs
+pdflatex ALERT-NuclGPDs.tex
+pdflatex ALERT-NuclGPDs.tex
+
+#Add creation of a tar?
